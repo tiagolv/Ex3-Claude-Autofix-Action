@@ -5,7 +5,7 @@ def validar_password(password):
         return False
     if not re.search(r'[A-Z]', password):
         return False
-    if not re.search(r'[a-z]', password):
+    if not re.search(r'[az]', password):
         return False
     if not re.search(r'[^A-Za-z0-9]', password):
         return False
