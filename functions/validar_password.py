@@ -1,7 +1,7 @@
 import re
 
 def validar_password(password):
-    if len(password) < 8:
+    if len(password) < 6:
         return False
     if not re.search(r'[A-Z]', password):
         return False
